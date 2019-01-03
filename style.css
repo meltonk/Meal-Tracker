@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+{
+		margin: 0;
+		padding: 0;
+}
+
+body /*background image*/
+{
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),url(image2.jpg); 
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+}
+.main-nav /* navigation*/
+{
+	float: right;
+	list-style: none;
+	margin-top: 50px;
+}
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 25px;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+}
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+
+.row
+{
+	max-width: 1200px;
+	margin: auto;
+}
+.MealTracker  /*header meal tracker*/
+{
+   
+   position:absolute;
+   margin-left: 0px;
+   margin-top: 0px;
+}
+ h1 	
+ { 
+	font-family: sans-serif; /*header meal tracker*/
+	color: white;
+	margin-top: 50px;
+	text-shadow: 
+	1px 1px 8px black,.5em -.5em 0 gold,1em .4em 0 orange, 
+	1.5em .4em 10vw orange,0 0 10vw gold;
+	font-size: 7vw;
+			
+}
+h2
+{
+	position: absolute;
+	text-align: left;
+	width: 1000px;
+	height: 300px;
+	left: 50%;
+	top: 50%;
+	color: white;
+	margin-left: -500px;
+	margin-top: -15px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 20px;
+}
+h3
+{
+	position: absolute;
+	text-align: left;
+	width: 1000px;
+	height: 300px;
+	left: 50%;
+	top: 50%;
+	color: white;
+	margin-left: -500px;
+	margin-top: 140px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 20px;
+}
+h4
+{
+	position: absolute;
+	text-align: left;
+	width: 1000px;
+	height: 300px;
+	left: 50%;
+	top: 50%;
+	color: white;
+	margin-left: -500px;
+	margin-top: 300px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 20px;
+}
+
+.MealTTracker /*header1*/
+{
+	position: absolute;
+	text-align: left;
+	width: 1000px;
+	height: 300px;
+	left: 50%;
+	top: 50%;
+	color: white;
+	margin-left: -500px;
+	margin-top: 200px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 15px;
+}
+p.one	/*1st paragraph in index.html*/ 
+{
+	position: absolute;
+	text-align: left;
+	width: 1000px;
+	height: 300px;
+	left: 50%;
+	top: 50%;
+	color: white;
+	margin-left: -500px;
+	margin-top: -90px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 15px;	
+}	
+p.ttwo /*2nd paragraph in index.html*/	
+{
+	position: absolute;
+	text-align: left;
+	width: 1000px;
+	height: 300px;
+	left: 50%;
+	top: 50%;
+	color: white;
+	margin-left: -500px;
+	margin-top: 10px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 15px;	
+	
+}
+.MealTrackerFeaturesList
+{
+	position: absolute;
+	text-align: left;
+	width: 1000px;
+	height: 300px;
+	left: 50%;
+	color: white;
+	margin-left: -500px;
+	margin-top: 190px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 15px;
+	
+}
+p.tthree/*3rd paragraph in index.html*/
+{
+	position: absolute;
+	text-align: left;
+	width: 1000px;
+	height: 300px;
+	left: 50%;
+	top: 50%;
+	color: white;
+	margin-left: -500px;
+	margin-top: 170px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 15px;
+}
+.FoodProgramReport
+{
+	position: absolute;
+	text-align: left;
+	width: 1000px;
+	height: 300px;
+	left: 50%;
+	top: 50%;
+	color: white;
+	margin-left: -500px;
+	margin-top: 210px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 15px;
+}
+ p.ffour/*4th paragraph in index.html*/
+ {
+	 position: absolute;
+	text-align: left;
+	width: 1000px;
+	height: 300px;
+	left: 50%;
+	top: 50%;
+	color: white;
+	margin-left: -500px;
+	margin-top: 330px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 15px;
+ }
+ 
+
+p.registration{  /* Registration header */
+	position: absolute;
+	text-align: center;
+	width: 720px;
+	height: 210px;
+	top: 50%;
+	left: 50%;
+	margin-top:-105px;
+	margin-left:-380px;
+	font-family: sans-serif;
+	font-size: 35px;
+	color: white;
+}
+p.privacy{ /*privacy header*/
+	position: absolute;
+	text-align: center;
+	width: 720px;
+	height: -900px;
+	top: 50%;
+	left: 50%;
+	margin-top: 335px;
+	margin-left:-380px;
+	font-family: sans-serif;
+	font-size: 25px;
+	color: white;
+}
+p.two	/*privacy paragraph in Registration.html*/ 
+{
+	position: absolute;
+	text-align: center;
+	width: 1000px;
+	height: -1000px;
+	left: 50%;
+	top: 50%;
+	margin-left: -510px;
+	margin-top: 400px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 15px;	
+}
+table /*table in registration.html*/ 
+{	position: absolute;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: white;
+	width: 960px;
+	height: 150px;
+	top:50%;
+	left: 50%;
+	margin-top: 10px;
+	margin-left:-425px;
+}
+	
+		
+.container {
+width: 40%;
+height: 40%;
+position: absolute;    
+margin:auto;
+top:0;
+bottom:0;
+left:0;
+right:0;
+background-color: #aaa;
+}
+
+img {
+max-width: 40%;
+max-height: 40%;  
+position: absolute;
+margin:auto;
+top:0;
+bottom:0;
+left:0;
+right:0;
+}
+p.thankyou  /*thankyou header*/
+{
+	position: absolute;
+	text-align: center;
+	width: 800px;
+	height: 50px;
+	left: 50%;
+	top: 50%;
+	margin-left: -400px;
+	margin-top: -25px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 50px;	
+}		
+p.thank  /*thankyou paragraph*/
+{
+	position: absolute;
+	text-align: center;
+	width: 800px;
+	height: -120px;
+	left: 50%;
+	top: 50%;
+	margin-left: -400px;
+	margin-top: 60px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 25px;	
+}
+
+</html>
+	
